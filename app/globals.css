@@ -49,3 +49,51 @@ button {
 .hit-text:hover {
   color: #f05e85;
 }
+
+@media print {
+  @page {
+    size: A4;
+    margin: 10mm;
+  }
+
+  html,
+  body {
+    background: #fff !important;
+  }
+
+  .cv-sheet,
+  .cv-frame,
+  .cv-page {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  .cv-toolbar,
+  .cv-page {
+    background: transparent !important;
+  }
+
+  .cv-page {
+    padding: 0 !important;
+  }
+
+  .cv-frame {
+    border: none !important;
+    box-shadow: none !important;
+    max-width: none !important;
+  }
+
+  .cv-sheet {
+    width: 100% !important;
+    max-width: none !important;
+  }
+
+  .cv-role {
+    break-inside: avoid;
+  }
+
+  a {
+    color: inherit !important;
+    text-decoration: none !important;
+  }
+}

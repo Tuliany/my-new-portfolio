@@ -1,4 +1,5 @@
 import Image from "next/image";
+import DownloadCv from "@/components/download-cv";
 import { profile } from "@/lib/site";
 
 export default function Hero() {
@@ -39,13 +40,9 @@ export default function Hero() {
               >
                 Email me
               </a>
-              <a
-                href={profile.cv}
-                download="Tuliany-Grande-CV.pdf"
-                className="hit hit-fill border-4 border-navy bg-white px-5 py-2 text-sm font-black uppercase tracking-widest text-navy no-underline"
-              >
+              <DownloadCv className="hit hit-fill border-4 border-navy bg-white px-5 py-2 text-sm font-black uppercase tracking-widest text-navy no-underline">
                 Download CV
-              </a>
+              </DownloadCv>
             </div>
             <ul className="mt-5 mb-0 flex list-none justify-center gap-3 p-0 sm:justify-start">
               <li>

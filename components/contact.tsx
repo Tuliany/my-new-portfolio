@@ -1,3 +1,4 @@
+import DownloadCv from "@/components/download-cv";
 import { profile } from "@/lib/site";
 
 export default function Contact() {
@@ -43,13 +44,9 @@ export default function Contact() {
             </a>
           </li>
           <li>
-            <a
-              href={profile.cv}
-              download="Tuliany-Grande-CV.pdf"
-              className="hit hit-chip inline-block border-2 border-navy bg-cream px-3 py-1 text-xs font-black uppercase tracking-widest text-navy no-underline"
-            >
+            <DownloadCv className="hit hit-chip inline-block border-2 border-navy bg-cream px-3 py-1 text-xs font-black uppercase tracking-widest text-navy no-underline">
               Download CV
-            </a>
+            </DownloadCv>
           </li>
         </ul>
       </div>

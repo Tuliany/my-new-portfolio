@@ -8,7 +8,6 @@ export const profile = {
   email: "tuliany@mail.com",
   linkedin: "https://www.linkedin.com/in/tuliany-grande/",
   github: "https://github.com/Tuliany",
-  cv: "/cv.pdf",
   about: [
     "I build product-facing web apps with Next.js, React, TypeScript, and Tailwind. I care about clear UI, solid API integration, and shipping in an agile team.",
     "Based between Marbella and Stockholm. Before tech I worked in real estate and ran my own company — I still bring that client-facing, get-it-done mindset to engineering.",
