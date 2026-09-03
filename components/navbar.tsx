@@ -25,7 +25,7 @@ function NavLinks({
           <Link
             href={item.href}
             onClick={onNavigate}
-            className="inline-block cursor-pointer text-sm font-semibold uppercase tracking-[0.18em] text-white no-underline transition-opacity duration-200 hover:opacity-70"
+            className="inline-block cursor-pointer text-sm font-semibold uppercase tracking-[0.18em] text-white no-underline transition-colors duration-150 hover:text-navy"
           >
             {item.label}
           </Link>
@@ -45,7 +45,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="fixed z-20 hidden w-full justify-center bg-brand px-8 py-4 shadow-[0_4px_16px_rgba(240,94,133,0.35)] lg:flex">
+      <nav className="fixed z-20 hidden w-full justify-center border-b-4 border-navy bg-brand px-8 py-4 lg:flex">
         <NavLinks />
       </nav>
 
@@ -53,7 +53,7 @@ export default function Navbar() {
         type="button"
         aria-label={open ? "Close menu" : "Open menu"}
         aria-expanded={open}
-        className="fixed top-5 left-5 z-30 flex h-10 w-10 cursor-pointer flex-col items-center justify-center gap-1.5 rounded-full border-0 bg-brand p-0 lg:hidden"
+        className="hit fixed top-5 left-5 z-30 flex h-10 w-10 cursor-pointer flex-col items-center justify-center gap-1.5 border-4 border-navy bg-brand p-0 lg:hidden"
         onClick={() => setOpen((value) => !value)}
       >
         <span

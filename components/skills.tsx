@@ -4,17 +4,17 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="mx-auto w-full max-w-5xl scroll-mt-24 px-4 py-20"
+      className="mx-auto w-full max-w-4xl scroll-mt-24 px-4 py-20"
     >
-      <h2 className="text-center text-3xl font-bold tracking-tight">Skills</h2>
-      <p className="mx-auto mt-3 max-w-xl text-center text-navy/65">
+      <h2 className="text-5xl font-black uppercase tracking-tight">Skills</h2>
+      <p className="mt-3 max-w-xl font-medium">
         What I use in production, from LinkedIn and recent roles.
       </p>
-      <ul className="mt-10 flex list-none flex-wrap justify-center gap-3 p-0">
+      <ul className="mt-10 flex list-none flex-wrap gap-3 p-0">
         {skills.map((skill) => (
           <li
             key={skill}
-            className="rounded-full bg-white px-5 py-2.5 text-base font-semibold text-navy shadow-[0_8px_24px_rgba(13,12,29,0.05)]"
+            className="border-2 border-navy bg-white px-4 py-2 text-sm font-black uppercase tracking-wide"
           >
             {skill}
           </li>

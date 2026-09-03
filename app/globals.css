@@ -23,3 +23,35 @@ body {
   font-family: var(--font-sans), -apple-system, BlinkMacSystemFont, "Segoe UI",
     sans-serif;
 }
+
+a,
+button {
+  cursor: pointer;
+}
+
+.hit {
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease,
+    background-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.hit:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 4px 4px 0 #0d0c1d;
+}
+
+.hit-chip:hover {
+  background: #0d0c1d;
+  color: #fff;
+}
+
+.hit-fill:hover {
+  background: #f05e85;
+  color: #fff;
+}
+
+.hit-text:hover {
+  color: #f05e85;
+}

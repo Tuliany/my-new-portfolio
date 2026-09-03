@@ -20,7 +20,7 @@ export default function Work() {
                 href={role.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-3xl font-black uppercase tracking-tight text-navy no-underline hover:text-brand sm:text-4xl"
+                className="hit-text text-3xl font-black uppercase tracking-tight text-navy no-underline sm:text-4xl"
               >
                 {role.company}
               </a>
@@ -42,7 +42,7 @@ export default function Work() {
                       href={client.href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="font-bold underline decoration-2 underline-offset-2"
+                      className="hit-text font-bold underline decoration-2 underline-offset-2"
                     >
                       {client.name}
                     </a>
@@ -67,7 +67,7 @@ export default function Work() {
                 href={role.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm font-black uppercase tracking-[0.2em] text-brand no-underline hover:underline"
+                className="hit-text text-sm font-black uppercase tracking-[0.2em] text-brand no-underline hover:underline"
               >
                 Visit site →
               </a>
