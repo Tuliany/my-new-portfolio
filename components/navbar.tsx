@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { navItems } from "@/lib/site";
 
@@ -37,11 +36,6 @@ function NavLinks({
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
-  const pathname = usePathname();
-
-  if (pathname.startsWith("/preview")) {
-    return null;
-  }
 
   return (
     <>

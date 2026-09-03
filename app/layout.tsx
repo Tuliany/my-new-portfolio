@@ -10,7 +10,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Tuliany Grande | Frontend Developer",
+  title: `${profile.name} | ${profile.title}`,
   description: profile.headline,
 };
 

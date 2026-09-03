@@ -2,19 +2,13 @@
 
 @theme inline {
   --color-cream: #faeee7;
-  --color-blush: #fff3f7;
   --color-brand: #f05e85;
   --color-navy: #0d0c1d;
-  --color-mint: #effffa;
-  --color-accent: #0070f3;
-  --color-hover: #343078;
-  --color-nav-shadow: #515f78;
   --font-sans: var(--font-outfit);
 }
 
 html {
   color-scheme: light;
-  scroll-behavior: smooth;
 }
 
 body {

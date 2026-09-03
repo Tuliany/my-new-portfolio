@@ -50,18 +50,16 @@ export default function Work() {
                 ))}
               </p>
             ) : null}
-            {role.stack.length > 0 ? (
-              <ul className="mt-4 flex list-none flex-wrap gap-2 p-0">
-                {role.stack.map((item) => (
-                  <li
-                    key={item}
-                    className="border-2 border-navy bg-cream px-2 py-0.5 text-xs font-bold uppercase tracking-wide"
-                  >
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            ) : null}
+            <ul className="mt-4 flex list-none flex-wrap gap-2 p-0">
+              {role.stack.map((item) => (
+                <li
+                  key={item}
+                  className="border-2 border-navy bg-cream px-2 py-0.5 text-xs font-bold uppercase tracking-wide"
+                >
+                  {item}
+                </li>
+              ))}
+            </ul>
             <p className="mt-4 mb-0">
               <a
                 href={role.href}
