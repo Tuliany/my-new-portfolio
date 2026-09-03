@@ -33,6 +33,9 @@ export const metadata: Metadata = {
     title: `${profile.name} | ${profile.title}`,
     description: `${profile.name} — ${profile.headline} Based in ${profile.location}.`,
   },
+  icons: {
+    icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
+  },
 };
 
 const jsonLd = {
