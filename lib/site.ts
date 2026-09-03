@@ -2,6 +2,7 @@ export const profile = {
   name: "Tuliany Grande",
   title: "Frontend Developer",
   location: "Marbella · Stockholm",
+  url: "https://tuliany.com",
   headline:
     "Frontend developer in Next.js, React, and TypeScript.",
   email: "tuliany@mail.com",
