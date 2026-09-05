@@ -5,10 +5,13 @@ export const profile = {
   url: "https://tuliany.com",
   headline:
     "Frontend developer in Next.js, React, and TypeScript.",
+  pitch:
+    "Looking for a frontend developer who understands both the user and the code?",
   email: "tuliany@mail.com",
   linkedin: "https://www.linkedin.com/in/tuliany-grande/",
   github: "https://github.com/Tuliany",
   about: [
+    "I don't just build what I'm given. I think about the user, the business goal, and how the product should actually work — then I turn that into a clean, maintainable frontend.",
     "I build product-facing web apps with Next.js, React, TypeScript, and Tailwind. I care about clear UI, solid API integration, and shipping in an agile team.",
     "Based between Marbella and Stockholm. Before tech I worked in real estate and ran my own company — I still bring that client-facing, get-it-done mindset to engineering.",
   ],

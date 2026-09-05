@@ -28,10 +28,10 @@ export default function Hero() {
               I am <span className="text-brand">Tuliany</span>
             </h1>
             <p className="mt-4 max-w-md text-base font-medium leading-7">
-              {profile.headline}
+              {profile.pitch}
             </p>
             <p className="mt-3 text-xs font-black uppercase tracking-[0.22em] text-brand">
-              Open to frontend roles · {profile.location}
+              · Next.js · React · TypeScript
             </p>
             <div className="mt-6 flex flex-wrap items-center justify-center gap-3 sm:justify-start">
               <a
